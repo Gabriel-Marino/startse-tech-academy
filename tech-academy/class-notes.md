@@ -2,89 +2,61 @@
 
 ## aula 01: Introdução à Programação.
 
-- Programar é criar um conjunto de instruções através de uma linguagem de programção para que o computador resolva nosso problema;
-- A internet ou Web é a rede interconectada de computadores, pela web acessa-se os dominios (sites que estam no subdominio www (world wide web)) que ficam armazenadas nos servidores, os dispositivos que acessam são os clients;
-- um dominio é acessado pela sua URL (uniform resource locator) que contem um protocolo (http/https) e dominio (nome do site) e path, pode ter também o subdominio (www), porta (80 para http e 443 para https), querry e parametros, âncora. 
 
-#### Linguagens:
-- Alto nível: mais similares com textos escritos, Python similar a textos em inglês e Portugol similar a textos em português;
-- Baixo nível: mais próximo da máquina, C é um exemplo;
-- Assembly: é uma linguagen aonde as outras linguagens são construídas em cima, muito próximo da máquina, é semelhante ao código hexadecimal;
-- código da máquina: hexadecimal do binário que é lido pelo sistema operacional;
-- código binário.
 
 <hr>
 
 ## aula 02: Hardware.
 
-- Parte física de um computador, abrange componentes como gabinete, placa-mãe, armazenamento (hd, ssd), periféricos (teclado, mouse, monitor);
-- hd também são periféricos, pois os hardware centrais são: placa-mãe, processador, memória RAM, fonte;
-- Memórias RAM são volatéis, não armazenam informação sem estarem energizadas, servem para que o conteudo de um programa saia do hd e fique mais facil de acessar quando usar o determinado programa.
+
 
 <hr>
 
 ## aula 03: Software.
 
-- Parte intagível do computador, programas (sistema operaciona, drivers, aplicativos e utilitários), da vida ao hardware.
+
 
 <hr>
 
 ## aula 04: Estrutura de um Computador.
 
-- Atualmente é utilizada a arquitetura de Von Neumann, todo computador tem ao menos entrada (dados por teclados, mouses ou outros equipamentos), processsamento (operações lógicas e aritméticas) e saída (informação);
-- os primeiros computadores foram construídos com Válvulas termiônicas, depois com transistores, então circuitos integrados e atualmente com chips VLSI (very large scale integration).
+
 
 <hr>
 
 ## aula 05: Internet.
 
-- em 62 EUA criou CCD, então em 66 ARPANET, ambas de uso exclusivamente militar;
-- em 82 desenvolvimento do TCP/IP e então liberado para uso civil;
-- ip: Internet protocol, é o endereço que reconhece cada computador da rede, muda de tempos em tempos, ip é formado por quatro octetos que vão de 0 a 255;
-- MAC Address é o endereço que da identidade a máquina, ou seja, cada computador tem um único MAC Address e é formado por seis bytes com dois algarismos hexadecimal cada e separados por dois pontos ou hífen;
-- DNS: Domain Name Systema, criado em 84 para traduzir um endereço (url) a um endereço que remete a rede desejada;
-- HTTP: Hypertext Transfer Protocol, é o conjunto de regras que permite os computadores se comunicarem, junto com ele foi criado o HTML e os primeiros navegadores WEB, tudo na década de 90 pelo Tim Berners-Lee no CERN.
+
 
 <hr>
 
 ## aula 06: Sistemas Operacionais.
 
-- Composto de um Kernel (elo entre hardware e software, gerencia processos e hardware), Scheduler (ordem em que os processos são feitos e quando eles usam ou deixar de usar um hardware), Gerenciador de Arquivo e Interface.
+
 
 <hr>
 
 ## aula 07: Tipos de sistemas Operacionais.
 
-- Desktop: Linux, Windows e Macintosh (MacOS);
-- Server: Linux e Windows;
-- Mobile: Linux (Android), iOS, Windows Phone;
-- Embutidos: Desenvolvidos para aparelhos e aplicações especificas.
+
 
 <hr>
 
 ## aula 08: Principais funções de um sistema Operacional.
 
-- tem como função gerenciar processos e arquvios.
+
 
 <hr>
 
 ## aula 09: Tipos de aplicação Web.
 
-- HTML: Hypertext Markup Languange, XML: Extensible Markup Languange, CSS: Cascading Style Sheets;
-- API: Application Programming Interface, gera as interfaces que permite as diferentes aplicações (back e front) se comunicarem;
-- API endpoint é o que é exposto ao usuário; contém Addres, Binding e Contract;
-- JSON: JavaScript Object Notation, é um formato de texto aceito por diversos protocolos
 
-#### Aplicações podem ser Dinâmicas ou Estáticas:
-- Estática: não contém ferramentas para mudar o conteúdo do site, necessário conhecimento de programção para alterar;
-- Dinâmica: contém ferramentas para mudar o conteúdo do site, amigável a não programadores, fácil de se modificar;
 
 <hr>
 
 ## aula 10: Front-end e Back-end.
 
-- Front-end é a interface da aplicação;
-- Back-end é tudo aquilo que o usuário não vê diretamente e que está sendo usado para que a aplicação funciona devidamente, resposanvel pela implementação das regras de negócio.
+
 
 <hr>
 
@@ -94,7 +66,7 @@
 
 ## aula 11: Aplicações web e SPAs.
 
-- SPA: Single Page Application, é uma aplicação que carrega uma única vez todas as páginas contida nela.
+
 
 <hr>
 
@@ -104,21 +76,13 @@
 
 ## aula 13: O que é engenharia de Software?
 
-- Conjunto de práticas para a abordagem sistemática, disciplinada e quantificavel no desenvolvimento, na operação e manutenção de software.
+
 
 <hr>
 
 ## aula 14: Os sete princípios da engenharia de Software.
 
-<ol>
-    <li>A razão de existir</li>
-    <li>Keep It Simple Stupid (KISS)</li>
-    <li>Mantenha a visão</li>
-    <li>O que um produz, os outros consomem</li>
-    <li>Esteja aberto para o futuro</li>
-    <li>Planeje com antecedência, visando a reutilização</li>
-    <li>Pense!</li>
-</ol>
+
 
 <hr>
 
