@@ -45,29 +45,32 @@ export { getArticles, getArticleByDoi };
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-// import fetch from 'node-fetch';
-// const request = require('request');
+import fetch from 'node-fetch';
+const request = require('request');
 
-// class Articles
-// {
-//     #ARTICLES = [];
+class Articles
+{
+    constructor(articles = [])
+    {
+        this.#ARTICLES = articles;
+    }
 
-//     set newArticle({ doi, title, abstract })
-//     {
-//         // const DATA = await fetch(`https://www.doi.org/${doi}`);
-//         this.#ARTICLES.push({ doi, title, abstract });
-//     }
+    set newArticle({ doi, title, abstract })
+    {
+        // const DATA = await fetch(`https://www.doi.org/${doi}`);
+        this.#ARTICLES.push({ doi, title, abstract });
+    }
 
-//     get articles()
-//     {
-//         return this.#ARTICLES;
-//     }
+    get articles()
+    {
+        return this.#ARTICLES;
+    }
 
-//     getArticleByDoi(doi)
-//     {
-//         return this.#ARTICLES.find(article => article.doi === doi);
-//     }
-// }
+    getArticleByDoi(doi)
+    {
+        return this.#ARTICLES.find(article => article.doi === doi);
+    }
+}
 
 // const CIENTIFIC_ARTICLES = new Articles();
 // CIENTIFIC_ARTICLES.newArticle(
